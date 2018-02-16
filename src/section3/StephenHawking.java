@@ -4,8 +4,16 @@ import javax.swing.JOptionPane;
 import com.sun.speech.freetts.Voice;
 import com.sun.speech.freetts.VoiceManager;
 
+import sun.applet.Main;
+
 public class StephenHawking {
-	
+	public static void main(String[] args) {
+			System.out.println();
+			while (true) {
+			String name = JOptionPane.showInputDialog("never gonna give you up...");
+			speak(name);
+			}
+	}
 	// 1. make a main method and put steps 2, 3 & 4 inside it
 	
 	// 4. Use a for loop to repeat steps #2 and #3, a lot of times
